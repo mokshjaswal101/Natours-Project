@@ -7,6 +7,9 @@ Dark green: #28b485
 
 */
 
+$color-grey-dark:#777;
+$color-white: #fff;
+
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
@@ -27,7 +30,7 @@ body {
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: #777;
+    color: $color-grey-dark;
     padding: 3rem;
     box-sizing: border-box;
 }
@@ -64,7 +67,7 @@ body {
 }
 
 .heading-primary {
-    color: #fff;
+    color: $color-white;
     text-transform: uppercase;
     margin-bottom: 6rem;
 
@@ -159,8 +162,8 @@ body {
 }
 
 .btn--white {
-    background-color: white;
-    color: #777;
+    background-color:$color-white;
+    color: $color-grey-dark;
 
     animation-name: moveUp;
     animation-duration: 1s;
@@ -180,7 +183,7 @@ body {
 }
 
 .btn--white::after {
-    background-color: white;
+    background-color: $color-white;
 }
 
 .btn:hover::after {
@@ -192,3 +195,4 @@ body {
     animation: moveUp 0.5s ease-out 0.6s;
     animation-fill-mode: backwards;
 }
+
