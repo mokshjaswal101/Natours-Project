@@ -17,8 +17,8 @@
         color: transparent;
         display: inline-block;
     }
-    
+
     &:hover{
-        transform: scale(1.03rem) translateY(-1.5rem);
+        transform: translateY(-1.5rem) scale(1.03);
     }
 }
