@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "watch:sass": "nodemon -e scss -x ' run compile:sass'"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mokshjaswal101/Natours-Project.git"
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/mokshjaswal101/Natours-Project#readme",
   "devDependencies": {
-    "node-sass": "^4.14.1",
-    "nodemon": "^2.0.4"
+    "node-sass": "^4.14.1"
   }
 }
